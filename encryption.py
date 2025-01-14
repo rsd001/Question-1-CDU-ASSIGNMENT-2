@@ -39,13 +39,13 @@ def decrypt(text, n, m):
 def check_decryption(original_text, decrypted_text):
     return original_text == decrypted_text
 
-def read_file(file_path):
-    with open(file_path, 'r') as file:
+def read_file(raw_text.txt):
+    with open(raw_text.txt, 'r') as file:
         return file.read()
 
-def write_file(file_path, content):
+def write_file(raw_text.txt, content):
 
-    with open(file_path, 'w') as file:
+    with open(raw_text.txt, 'w') as file:
         file.write(content)
 
 def main():
